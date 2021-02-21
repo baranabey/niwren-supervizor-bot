@@ -30,7 +30,7 @@ client.on('message', message => {
 
 client.on('ready', () => {
     wait(1000);
-    client.user.setPresence({ activity: { name: 'Niwren ❤️ Serendia' }, status: 'idle' })
+    client.user.setPresence({ activity: { name: 'Nren ❤️ Serendia' }, status: 'idle' })
     client.channels.cache.get("781167012214079518").join() // ses kanalı id
     console.log(`Bot ${client.user.tag} Adı İle Giriş Yaptı!`);
     client.guilds.cache.forEach(g => {
